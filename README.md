@@ -6,21 +6,6 @@ Repository Name: cognitive_decision_simulation
 Description:
 Python-based simulation of a cognitive neuroscience decision-making task. This project generates synthetic EEG data influenced by stress and reward, simulates participant choices and reaction times, and produces visualizations including scatter plots and boxplots. All data and plots are saved for further analysis.
 
-Folder Structure:
-cognitive_decision_simulation/
-│
-├─ code/
-│   ├─ main.py                 ← Main file to run the full simulation
-│   ├─ generate_data.py        ← Generates CSV data
-│   ├─ scatter_plot.py         ← Generates and saves scatter plot
-│   └─ boxplot.py              ← Generates and saves boxplot
-│
-├─ data/                       ← Stores CSV files
-│   └─ final_decision_task.csv
-│
-└─ plots/                      ← Stores plot images
-    ├─ eeg_scatter.png
-    └─ eeg_boxplot.png
 
 Requirements:
 •	Python 3.x
